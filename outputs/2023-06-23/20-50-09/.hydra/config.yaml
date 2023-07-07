@@ -1,0 +1,3 @@
+_target_: src.filters.filter_videos.filter_glasses_video.FilterGlassesVideo
+filter_image: ${filters.filter_image.filter_glasses_image}
+output_folder: ${paths.output_video_dir}

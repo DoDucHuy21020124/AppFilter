@@ -1,0 +1,9 @@
+services:
+  app:
+    build: .
+    container_name: filter-app-container
+    command: python -m src.app
+    ports:
+      - 80:80
+    volumes:
+      - .:/filter-app
